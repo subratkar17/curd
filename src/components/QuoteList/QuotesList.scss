@@ -1,0 +1,36 @@
+.quotes-list {
+    padding-top: 2%;
+    section {
+        width: 48%;
+        display: inline-block;
+        padding: 1%;
+        article {
+            background: #ccc;
+            blockquote {
+                padding-top: 4%;
+            }
+            footer {
+                float: right;
+                position: relative;
+                text-align: right;
+                right: 5%;
+            }
+            .icons {
+                padding: 1%;
+                margin-left: 4%;c
+                .like,.delete {
+                    padding: 2%;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:600px){
+    .quotes-list {
+        section {
+            width: 100%;
+        }
+    }
+}
